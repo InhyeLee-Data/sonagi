@@ -91,15 +91,15 @@ function update(source) {
   // Normalize for fixed-depth.
   nodes.forEach((d) => { 
     if (d.depth == 1) {
-      d.y = 250; //depth = level
+      d.y = 100; //depth = level
     } else if (d.depth == 2) {
-      d.y = 450; 
+      d.y = 300; 
     } else if (d.depth == 3) {
-      d.y = 550; 
+      d.y = 500; 
     } else if (d.depth == 4) {
-      d.y = 750; 
+      d.y = 600; 
     } else if (d.depth == 0) {
-      d.y = 50; 
+      d.y = 0; 
     }
   });
 
